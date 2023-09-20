@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Handlee&family=Vollkorn&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+body{
+background-color: black;
+}
+
+header{
+    color: white;
+    text-align: center;
+    font-weight: 400;
+    padding: 3px;
+    font-size: 1em;
+}
+
+#main {
+  padding-top: 15px;
+}
+
+article{
+  margin-top: 50px;
+  color: white;
+}
+
+
+
+.profile{
+  height: 100%;
+  float: left;
+  margin-right: 10em;
+  margin-left: 20em;
+  margin-bottom: 20px;
+  box-shadow: 20px;
+}
+
+ 
+#main main {
+  width: 100%;
+  background: transparent;
+  height: 50vh;
+
+}
+
+.kampus, .project{
+  font-size: 1.7em;
+}
+
+h2{
+  color: gold;
+}
+
+.container{
+  width: 50%;
+}
+
+.f-work{
+  margin: 20px;
+}
+
+.card{
+  background: transparent;
+  color: white;
+}
+
+h5{
+  display: flex;
+  justify-content: center;
+}
+
+.card-img-top{
+  height: 50%;
+  width: 50%;
+}
+
+.report{
+    margin: 10px;
+}
+
+.report .form-control{
+    width: 100%;
+}
+
+.report .form-label{
+    color: white;
+}
+
+.report .btn{
+    padding: 2px;
+    margin-top: 15px;
+    margin-left: 5px;
+}
+
+.footer {
+  text-align: center;
+  background: black;
+  padding: 10px;
+  color: white;
+}
