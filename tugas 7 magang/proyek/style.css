@@ -1,0 +1,367 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: whitesmoke;
+}
+
+.blank{
+    width: 100%;
+    height: 40px;
+    background-color: #698AFF;
+    margin: 20px 0 20px 0;
+}
+
+.content1{
+    background-color: white;
+}
+
+.navbar{
+    margin-left: 80px;
+}
+
+.navbar-brand{
+    color: #00730C;
+    font-weight: bold;
+}
+
+.navbar-brand span{
+    color: #997817;
+}
+
+.collapse{
+    display: flex;
+    justify-content: center;
+}
+
+.navbar-nav li{
+    margin-left: 50px;
+    font-weight: 500;
+}
+
+.navbar-nav li:hover{
+    text-decoration: underline 3px #178891;
+    font-weight: bold;
+}
+
+.btn-nav{
+    display: flex;
+    justify-content: center;
+    border: solid 2px;
+    font-weight: bold;
+    margin-right: 80px;
+    width: 100px;
+    height: 30px;
+    background: transparent;
+    border-radius: 8px;
+    align-items: center;
+}
+
+.konten1{
+background-image: url(img/aset1.jpg);    padding-bottom: 30px;
+    padding-top: 20px;
+}
+
+.konten1 p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: 200;
+}
+
+.konten1 h4{
+    font-weight: bold;
+    color: white;
+    margin-bottom: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-main1{
+    width: 220px;
+    height: 35px;
+    border-radius: 20px;
+    background-color: #00730C;
+    border: none;
+    color: white;
+    margin-left: 43%;
+}
+
+.konten2{
+    height: 300px;
+    background-color: white;
+    padding: 30px;
+}
+
+.konten2 p{
+    font-size: 1.5em;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.set-gambar ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.set-gambar li{
+    list-style: none;
+}
+
+.gambar{
+    width: 150px;
+    height: 100px;
+    background-color: white;
+}
+
+.konten3{
+    background-image: url(img/kabah.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 400px;
+    padding-bottom: 30px;
+    padding-top: 200px;
+    }
+    
+    .konten3 p{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        font-weight: 200;
+    }
+    
+    .konten3 h4{
+        font-weight: bold;
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .btn-main3{
+        width: 220px;
+        height: 35px;
+        border-radius: 20px;
+        background-color: #00730C;
+        border: none;
+        color: white;
+        margin-left: 43%;
+    }
+
+    .konten4{
+        background-color: #E5F1E7;
+        padding: 100px;
+    }
+
+    .konten4 h4{
+        font-weight: bolder;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .konten4 .desc{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .konten4 .card{
+        background-color: #E5F1E7;
+        margin: 20px;
+        border: none;
+    }
+
+    .card span{
+        color: #A38B37;
+    }
+
+    .card img{
+        height: 200px;
+    }
+
+    .card .btn{
+        background-color: #00730C;
+        color: white;
+        border-radius: 13px;
+        width: 100px;
+        height: 40px;
+    }
+
+    .konten5{
+        padding: 100px;
+        background-color: white;
+    }
+
+    .konten5 span{
+        display: flex;
+        justify-content: end;
+    }
+
+    .konten5 h4{
+        font-weight: bold;
+    }
+
+    .konten5 span{
+        color: #A38B37;
+        font-size: 0.8em;
+    }
+
+    .konten5 .card{
+        margin: 10px;
+        border: none;
+
+    }
+
+    .konten5 .card img{
+        height: 250px;
+        width: 340px;
+    }
+
+    .konten5 .card p{
+        font-weight: bolder;
+    }
+
+    .konten6{
+        background-color: #E5F1E7;
+
+    }
+
+    .kiri{
+        float: left;
+        padding-left: 100px;
+        padding-top: 50px;
+
+    }
+
+    .kiri li{
+        list-style: none;
+        display: flex;
+        align-items: center;
+        margin-bottom: 10px;
+    }
+
+    .kiri ion-icon{
+        --ionicon-stroke-width: 50px;
+        color: #00730C;
+        font-size: 2.5em;
+    }
+
+    .kiri span{
+        font-size: 1.5em;
+        font-weight: bold;
+        margin-left: 5px;
+    }
+
+    .konten7{
+        background-color: white;
+        padding: 100px 130px;
+    }
+
+    .konten7-main{
+        border-radius: 10px;
+        background-color: #A3D0D4;
+        padding: 40px 20px 20px 40px;
+        height: 430px;
+    }
+
+    .konten7-main h3{
+        font-weight: bold;
+        font-size: 2.4em;
+    }
+
+    .konten7-input{
+        margin-top: 50px;
+        display: block;
+    }
+
+    .inputan{
+        display: flex;
+    }
+
+    .konten7-input label{
+        margin-bottom: 20px;
+    }
+
+    .konten7-input input{
+        width: 450px;
+        height: 35px;
+        border-radius: 10px;
+    }
+
+    .konten7-input input::placeholder{
+        text-indent: 20px;    
+    }
+
+    .konten7-input ion-icon{
+        font-size: 30px;
+        border: 2px solid;
+        background-color: white;
+    }
+
+    .konten7-main img{
+        float: right;
+    }
+
+    .konten7-main2{
+        background-color: #997817;
+        width: 100%;
+        height: 100%;
+    }
+
+    .gambar-1{
+        width: 250px;
+        height: 200px;
+    }
+
+    .footer{
+        background-color: #c7b580;
+        width: 100%;
+        height: 100%;
+        padding: 30px 0 0 100px;
+    }
+
+    .descripsi-dikit h5{
+        color: #00730C;
+        font-weight: bold;
+        font-size: 1.4rem;
+    }
+
+    .descripsi-dikit span{
+        color: #997817;
+    }
+
+    .descripsi-dikit p{
+        font-size: 1.1em;
+    }
+
+    .about-dikit h5{
+        font-weight: bold;
+    }
+
+    .about-dikit p{
+        font-weight: 530;
+    }
+
+    .link-dikit h5{
+        font-weight: bold;
+    }
+
+    .icon-dikit{
+        display: flex;
+        justify-content: center;
+    }
+
+    .icon-dikit ion-icon{
+        font-size: 35px;
+        margin-left: 50px;
+    }

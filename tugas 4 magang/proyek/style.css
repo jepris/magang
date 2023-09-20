@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+section {
+    margin-top: 150px;
+    margin-left: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 50vh;
+    width: 100vh;
+    background-color: rgba(231, 231, 231, 0.989);
+}
+
+.form-box {
+    display: flex;
+    width: 400px;
+    height: 450px;
+    border: 4px solid rgba(255, 2555, 2555, 0.5);
+    backdrop-filter: blur(2px);
+    justify-content: center;
+    align-items: center;
+}
+
+h2 {
+    font-size: 2em;
+    text-align: center;
+}
+
+.inputbox {
+    position: relative;
+    margin: 30px 0;
+    width: 310px;
+    border-bottom: solid rgb(206, 206, 206);
+}
+
+.inputbox label {
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    transform: translateY(-50%) no-repeat;
+    color: rgb(206, 206, 206)   ;
+    font-size: 1em;
+    pointer-events: none;
+    transition: .5s;
+}
+
+input:focus~label,
+input:valid~label {
+    top: -5px;
+}
+
+.inputbox input {
+    width: 100%;
+    height: 50px;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 1em;
+    padding: 0 35px 0 5px;
+}
+
+.forget {
+    margin: -15px 0 15px;
+    font-size: .9em;
+    display: flex;
+    justify-content: center;
+}
+
+.forget label a {
+    text-decoration: none;
+    color: rgb(206, 206, 206);
+}
+
+.forget label a:hover {
+    text-decoration: underline;
+}
+
+.button {
+    display: flex;
+    width: 250px;
+    height: 40px;
+    border-radius: 40px;
+    background: #D6AF7E;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 1em;
+    font-weight: 600;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 20px;
+}
+
+.button-fb {
+    display: flex;
+    width: 250px;
+    height: 40px;
+    border-radius: 40px;
+    background: none;
+    border: solid rgb(192, 187, 187);
+    outline: none;
+    cursor: pointer;
+    font-size: 1em;
+    font-weight: 600;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 20px;
+}
+
+span{
+    color: #1877F2;
+}
+
+.content {
+    display: flex;
+    width: 400px;
+    height: 450px;
+    background-image:url(japan.jpg);
+    justify-content: center;
+    align-items: center;
+}
+
+.content h2{
+    color: white;
+}
+
+.desc p{
+    color: white;
+    font-size: 1em;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 200px;
+}
+
+.button-up {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 100px;
+    height: 40px;
+    border-radius: 40px;
+    background: transparent;
+    cursor: pointer;
+    border: white solid;
+    color: white;
+    font-size: 1em;
+    font-weight: 600;
+    margin-left: 50px;
+}
