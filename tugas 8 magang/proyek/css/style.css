@@ -1,0 +1,345 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: #e5e5e5;
+
+}
+
+header{
+    margin-top: 50px;
+}
+
+header h2{
+    font-weight: 700;
+}
+
+.kosong{
+    width: 100%;
+    height: 60px;
+    background-color: #698aff;
+    margin: 30px 0 40px 0;
+}
+
+.navbar-nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+.booking{
+    background-color: white;
+    padding-bottom: 30px;
+}
+
+.judul{
+    padding: 50px 80px 50px 80px;
+}
+
+.judul h3{
+    font-size: 3.3em;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+
+.judul p{
+    font-size: 1.4em;
+    margin-bottom: 50px;
+}
+
+.judul a{
+    border-radius: 20px;
+    background-color: #3e54aa;
+    color: white;
+    font-weight: bold;
+}
+
+.gambar1 img{
+    float: right;
+}
+
+.getservice{
+    width: 50%;
+    margin-left: 350px;
+}
+
+.getservice p{
+    font-size: 1.1em;
+}
+
+.servicedetail{
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    border: 2px solid black;
+    margin-left: 300px;
+    padding: 20px 10px 10px 10px;
+}
+
+.servicedetail h4{
+    font-weight: bold;
+    margin-right: 20px;
+}
+
+.servicedetail .dropdown{
+    margin-right: 20px;
+    background-color: #f6f6f6;
+    border-radius: 10px;
+}
+
+.servicedetail .inputdate{
+    border-radius: 10px;
+    background-color: #f6f6f6;
+    border: none;
+    margin-right: 30px;
+}
+
+.servicedetail a{
+    border-radius: 20px;
+    background-color: #3e54aa;
+    color: white;
+    font-weight: bold;
+    width: 150px;
+}
+
+.daclean-info{
+    background-color: #e5f1e7;
+    padding-bottom: 30px;
+}
+
+.ruangtamu img{
+    margin-top: 30px;
+    width: 550px;
+    height: 350px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.info{
+    margin-top: 50px;
+}
+
+.info h4{
+    margin-left: 40px;
+    font-weight: 900;
+    font-size: 2em;
+}
+
+.info li{
+    display: flex;
+    list-style: none;
+    margin-bottom: 10px;
+    font-size: 1.4em;
+}
+
+.info ion-icon{
+    font-size: 40px;
+    color: green;
+    font-weight: 900;
+    --ionicon-stroke-width: 60px;
+    margin-right: 10px;
+}
+
+.info a{
+    border-radius: 20px;
+    background-color: #3e54aa;
+    color: white;
+    font-weight: bold;
+    width: 200px;
+    margin-left: 40px;
+    margin-top: 30px;
+}
+
+.alat-info{
+    background-color: white;
+    padding-top: 60px;
+    padding-bottom: 50px;
+}
+
+.alat-info h4{
+    margin-left: 150px;
+    margin-bottom: 20px;
+}
+
+.alat{
+    display: flex;
+    margin-left: 150px;
+}
+
+.brush{
+    width: 300px;
+    height: 200px;
+    border: 2px solid rgb(222, 222, 222);
+    background-image: url(/img/alatkebersihan1.jpg);
+    background-size: cover;
+    margin-right: 20px;
+}
+
+.brush p{
+    color: white;
+    margin-top: 20px;
+    margin-left: 20px;
+    width: 60%;
+    font-weight: bold;
+    font-size: 1.6em;
+}
+
+.vacum1{
+    background-image: url(/img/vacum1.png);
+    background-size: cover;
+    width: 300px;
+    height: 200px;
+    border: 2px solid rgb(222, 222, 222);
+    margin-right: 20px;
+}
+
+.vacum1 p{
+    margin-top: 20px    ;
+    margin-left: 20px   ;
+    width: 60%;
+    font-weight: bold;
+    font-size: 1.6em;
+}
+
+.vacum2{
+    background-image: url(/img/vacum1.png);
+    background-size: cover;
+    width: 300px;
+    height: 200px;
+    border: 2px solid rgb(222, 222, 222);
+}
+
+.vacum2 p{
+    margin-top: 20px    ;
+    margin-left: 20px   ;
+    width: 60%;
+    font-weight: bold;
+    font-size: 1.6em;
+}
+
+.packages{
+    background-color: white;
+    padding-left: 60px;
+    padding-bottom: 100px;
+}
+
+.packages-info{
+    margin-left: 90px;
+    margin-right: 90px;
+}
+
+.card img{
+    height: 200px;
+}
+
+.card a{
+    text-decoration: none;
+    height: 30px;
+    width: 80px;
+    border-radius: 10px;
+    color: black;
+    background-color: rgb(222, 222, 222);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.joinmember{
+    margin-top: 50px;
+}
+
+.joinmember h4{
+    margin-left: 100px;
+    margin-bottom: 30px;
+    font-weight: 900;
+    font-size: 2em;
+}
+
+.joinmember p{
+    width: 60%;
+    font-size: 1.25em;
+    font-weight: 600;
+    margin-left: 100px;
+}
+
+.joinmember  a{
+    border-radius: 20px;
+    background-color: #3e54aa;
+    color: white;
+    font-weight: bold;
+    width: 200px;
+    margin-left: 100px;
+    margin-top: 40px;
+}
+
+.daclean-member{
+    background-color: #e5f1e7;
+    padding-bottom: 30px;
+}
+
+.join{
+    margin-right: 0px;
+}
+
+.join img{
+    margin-top: 30px;
+    width: 526px;
+    height: 350px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.kosongin{
+    height: 100px;
+    background-color: white;
+}
+
+.footer{
+    background-color: black;
+    width: 100%;
+    height: 100%;
+    padding: 30px 0 0 100px;
+}
+
+.descripsi-dikit h5{
+    color: white;
+    font-weight: 900;
+    font-size: 1.4rem;
+}
+
+.descripsi-dikit p{
+    font-size: 1.1em;
+    color: white;
+}
+
+.about-dikit h5{
+    font-weight: bold;
+    color: white;
+}
+
+.about-dikit p{
+    font-weight: 530;
+    color: white;
+}
+
+.link-dikit h5{
+    font-weight: bold;
+    color: white;
+}
+
+.link-dikit p{
+    color: white;
+}
+
+.icon-dikit{
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+.icon-dikit ion-icon{
+    font-size: 35px;
+    margin-left: 50px;
+}
